@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FRONTEND TASK</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="profile">
+        <h1>MY TECH GOALS FOR THE NEXT 2 YEARS</h1>
+        <img
+          src="https://ca.slack-edge.com/T07466B189M-U07A7PW3TN2-df1f4ee9c914-512"
+          alt="Slack Profile Picture"
+          data-testid="slackProfilePicture"
+          width="150"
+          height="150"
+        />
+        <p>
+          Slack Name: <span data-testid="slackDisplayName">Adedoyin Dee</span>
+        </p>
+        <p>
+          Slack Email:
+          <span data-testid="slackEmail">Herdeysquare@gmail.com</span>
+        </p>
+      </div>
+
+      <div class="time-info">
+        <p>
+          Current Time in UTC:
+          <span data-testid="currentTimeUTC" id="currentTimeUTC">--:--:--</span>
+        </p>
+        <p>
+          Current Day:
+          <span data-testid="currentDay" id="currentDay">----</span>
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <span id="container">
+        <div id="box1">
+          <p class="box">
+            Master ReactJS and contribute to open source projects
+          </p>
+        </div>
+        <div id="box2">
+          <p class="box">Build a personal project portfolio website</p>
+        </div>
+        <div id="box3">
+          <p class="box">
+            Contribute to the tech community by writing blogs and tutorials
+          </p>
+        </div>
+        <div id="box4">
+          <p class="box">
+            Improve problem-solving skills by participating in coding challenges
+          </p>
+        </div>
+
+        <div class="links">
+          <h2>Useful Links</h2>
+          <ul>
+              <li><a href="https://hng.tech/learn" data-testid="hngLink">HNG Learn</a></li>
+              <li><a href="https://keyword.dog" data-testid="keywordLink">Keyword Dog</a></li>
+              <li><a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a></li>
+          </ul>
+      </div>
+      </span>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
