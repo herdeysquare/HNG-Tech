@@ -48,16 +48,16 @@ header {
   background-size: cover;
 }
 #box1 {
-  background-image: url(./images/vadim-bozhko-lbO1iCnbTW0-unsplash.jpg);
+  background-image: url(../vadim-bozhko-lbO1iCnbTW0-unsplash.jpg);
 }
 #box2 {
-  background-image: url(./images/ben-kolde-cpLsWmMEa1Q-unsplash.jpg);
+  background-image: url(../ben-kolde-cpLsWmMEa1Q-unsplash.jpg);
 }
 #box3 {
-  background-image: url(./images/nubelson-fernandes-MPJ7mLqSLm4-unsplash.jpg);
+  background-image: url(../nubelson-fernandes-MPJ7mLqSLm4-unsplash.jpg);
 }
 #box4 {
-  background-image: url(./images/glen-carrie-f-Aspf02w84-unsplash.jpg);
+  background-image: url(../glen-carrie-f-Aspf02w84-unsplash.jpg);
 }
 .box {
   display: flex;
